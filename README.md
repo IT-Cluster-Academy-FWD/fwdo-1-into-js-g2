@@ -1,4 +1,4 @@
-## Into JS lesson for FWD Online course
+## Into JS + Bondi lesson for FWD Online course
 
 First install dependencies (note than NodeJS must be installed on your computer):
 ```
