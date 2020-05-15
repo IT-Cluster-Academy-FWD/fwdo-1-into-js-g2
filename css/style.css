@@ -188,7 +188,6 @@ body {
   height: 200px;
   background-color: white;
   margin: 5px 10px 10px 10px;
-  border: solid 1px black;
   justify-content: center;
   flex-direction: center;
   min-width: 270px;
