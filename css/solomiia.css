@@ -22,7 +22,7 @@ body {
 }
 
 p {
-  color: var(--color-font-main);
+  color: var(--color-font-main, #a8b9c0);
 }
 
 .main-logo {
@@ -108,8 +108,8 @@ p {
 }
 
 .main-button {
-  background-color: var(--color-button-main);
-  color: var(--color-button-text);
+  background-color: var(--color-button-main, #ff3150);
+  color: var(--color-button-text, #ffc501);
   width: 205px;
   height: 45px;
   border: none;
@@ -117,9 +117,30 @@ p {
   border-radius: 20px;
 }
 
+.main-button:hover {
+  background-color: var(--color-button-text, #ffc501);
+  color: var(--color-button-main, #ff3150);
+}
+
 @media screen and (min-width: 768px) {
   .main-content {
     max-width: 100%;
     display: flex;
+  }
+
+  .main-title-left {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-title-left-pictures,
+  .pictures-tv-screen-section {
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
