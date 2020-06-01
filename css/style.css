@@ -143,6 +143,9 @@ body {
 
 .we-make-this-description {
   margin-bottom: 20px;
+}
+
+.uppercase {
   text-transform: uppercase;
 }
 
